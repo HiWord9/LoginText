@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "logintext",
+  "version": "${version}",
+
+  "name": "LoginText",
+  "description": "whabulabudabdab",
+  "authors": [
+    "HiWord9"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/HiWord9"
+  },
+
+  "license": "MIT",
+  "icon": "assets/logintext/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.HiWord9.LoginText.LoginText"
+    ]
+  },
+  "mixins": [
+    "logintext.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": ">=1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
